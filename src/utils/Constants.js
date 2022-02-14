@@ -1,0 +1,1 @@
+export const lastSequenceCharFunct = seq =>(seq[seq.length-1]);

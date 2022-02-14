@@ -1,13 +1,16 @@
+html{
+  font-size:20px;
+  overflow-x: hidden;
+  --top-spacing: 50px;
+}
+
 body {
+  margin: var(--top-spacing) auto;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: rgba(2, 53, 87, 0.9);
 }
